@@ -15,13 +15,13 @@ body{
     font-size: 50px;
 }
 h1 span {
-    color: rgb(255, 51, 0);
+    color: rgb(240, 8, 47);
 }
 p{ 
     font-size: 22px;
 }
 p span {
-    color: rgb(255, 51, 0);
+    color: rgb(235, 0, 59);
 }    
 .display {
     display: flex;
@@ -105,4 +105,44 @@ p span {
     padding-left: 190px;
     padding-right: 20px;
     width: 90%; 
+}
+.last-heading{
+    text-align: center;
+    font-size: 3em;
+    padding-top: 10%;
+}
+#e-learning{
+    width: 95%;
+}
+#e-learning img {
+    width: 110%;
+    height: 100%;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;   
+    box-shadow: 2px 4px 20px gray;    
+}
+.para2{
+    padding-left: 15%;
+    text-align: justify;
+    font-size: 1.5em;
+    padding-top: 25px;
+}
+.last-not-least{
+    padding-left: 15%;
+    font-size: 30px;
+}
+.last-anchor{
+    margin-left: 15%;
+    background: linear-gradient( rgb(243, 115, 64), rgb(212, 63, 120) );
+    padding: 10px 50px;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+}
+footer {
+    margin-top: 10%;
+    padding: 5px ;
+    background-image: linear-gradient(rgb(255, 115, 51), rgb(260, 174, 68), rgb(231, 122, 49));
+    text-align: center;
 }
